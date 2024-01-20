@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Createpayrollbtn from "./MyComponents/JSX/Createpayrollbtn";
+import PayrollInput from "./MyComponents/JSX/PayrollInput";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import PayrollChecklist from "./MyComponents/JSX/PayrollChecklist";
+import PayrollProcess from "./MyComponents/JSX/PayrollProcess";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Createpayrollbtn />} />
+          <Route path="/payrollinput" element={<PayrollInput />} />
+          <Route path="/payrollchecklist" element={<PayrollChecklist />} />
+          <Route path="/payrollprocess" element={<PayrollProcess />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

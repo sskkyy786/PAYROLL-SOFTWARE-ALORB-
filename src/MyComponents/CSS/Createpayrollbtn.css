@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+.big-container {
+  /* top: 30px;
+    left: 30px; */
+
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.head-container {
+  /* display: flex; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 10px;
+}
+
+.head-container input {
+  border-radius: 5px;
+  border: 0;
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+.month-year {
+  margin-left: 5px;
+}
+
+.block {
+  margin: 3px;
+  border: solid;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.month {
+  font-weight: 600;
+  font-size: small;
+  color: black;
+}
+
+.year {
+  font-size: small;
+  color: black;
+}
+
+.clicked {
+  background-color: rgb(96, 96, 243);
+  color: white;
+}
+
+.arrow {
+  margin-top: 35px;
+}
+
+.head {
+  font-weight: 700;
+  margin-top: 10px;
+  color: black;
+  display: flex;
+}
+
+.body img {
+  width: 250px;
+  height: 200px;
+  margin: 0px auto;
+}
+
+.body {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 0px;
+  color: black;
+  font-size: 15px;
+}
+
+.body div {
+  margin: 5px;
+  /* margin-left: 30px; */
+  width: 100%;
+}
+
+.body div button {
+  color: blue;
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.create-payroll-btn {
+  margin-top: 20px;
+  background-color: rgb(145, 145, 241);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  width: max-content;
+  border: 1px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.mini {
+  background-color: white;
+  border-radius: 3px;
+  /* width: 400px;
+    height: 200px; */
+  /* width: 40%;
+    height: 40%; */
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+  margin: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999999;
+}
+
+.mini div,
+select {
+  display: flex;
+  margin-right: auto;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.mini h3 {
+  display: flex;
+  margin-right: auto;
+  margin: 5px;
+  margin-bottom: 25px;
+}
+
+.mini select {
+  border-radius: 5px;
+  width: 220px;
+}
+
+.buttons {
+  margin: 10px;
+  margin-left: auto;
+  padding: 5px;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  /* display: flex; */
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.buttons:hover {
+  color: white;
+  background-color: rgb(138, 138, 239);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value for the desired level of transparency */
+  z-index: 999; /* Make sure it's above other elements */
+}
+
+.maxi {
+  background-color: white;
+  border-radius: 3px;
+  /* width: 400px;
+    height: 200px; */
+  width: 40%;
+  height: 30%;
+  /* width: max-content;
+    height: max-content; */
+  padding: 10px;
+  margin: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999999;
+}
+
+.maxi button {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(138, 138, 239);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.maxi button:hover {
+  color: white;
+  background-color: blue;
+}
+

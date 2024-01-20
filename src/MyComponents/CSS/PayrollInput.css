@@ -1,0 +1,187 @@
+.big-containerr {
+    /* top: 30px;
+      left: 30px; */
+  
+    margin: 20px auto;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(240, 241, 247);
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+  }
+
+.lock{
+    background-color: white;
+    border-radius: 3px;
+    /* width: 400px;
+    height: 200px; */
+    width: 50%;
+    height: 45%;
+    /* width: max-content;
+    height: max-content; */
+    
+    padding: 20px;
+    margin: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 9999999999;
+  }
+
+.lock span{
+    font-size: 15px;
+}
+
+.lock div{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.lock input{
+    border: none;
+    background-color: aliceblue;
+}
+.lock div button{
+    margin: 10px;
+    font-size: smaller;
+    cursor: pointer;
+    background-color: rgb(194, 194, 238);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.process-input-body-container{
+    margin: 4%;
+    padding: 10px;
+    height: max-content;
+    width: 100%;
+}
+
+.headd{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: black;
+    display: flex;
+    
+}
+
+.headd div{
+    margin-right: auto;
+    margin-left: 7.5%;
+}
+
+.bodyy{
+    margin-top: 5px;
+    margin-left: 6%;
+    margin-right: 4%;
+    /* width: max-content; */
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    /* background-color: rgb(239, 243, 243); */
+}
+
+.bodyy div{
+
+    /* margin-right: 140px; */
+    /* background-color: rgb(239, 243, 243); */
+    padding: 5px 10px;
+    border-radius: 8px;
+    /* width: 250px; */
+    margin: 0 auto; 
+}
+
+.process-payroll-btn{
+    background-color: rgb(96, 96, 243);
+    /* width: max-content; */
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: 15.5%;
+    /* margin-right: 69px; */
+    color: white;
+   
+}
+
+.number div span{
+    /* margin: -10px; */
+    font-weight: 500;
+    
+}
+
+.number p{
+    margin: 0;
+    /* margin-left: 10px; */
+    margin-top: -10px;
+    font-size: small;
+}
+
+.number div{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.number img{
+    width: 80px;
+}
+
+.payout-details {
+    width: 30%;
+    padding: 40px;
+}
+
+.roww{
+    display: flex; 
+}
+
+.roww div{
+    margin: 15px 10px 0;
+}
+
+.rowbtn{
+    margin: 0 10000px;
+    width: 60px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.rowbtn:hover{
+    color: white;
+    background-color: rgb(96, 96, 243);
+}
+
+.rowhead{
+    width: 270px; 
+}
+
+.active{
+    background-color: blue;
+    color: white;
+}
+
+.employee-details{
+    width: 300px;
+}
+
+.rightmostside-panel{
+    width: 100%
+}
+
+.input-rupee{
+    width: 30px;
+}
+
+.number{
+    width: 80px;
+    /* height: 30px; */
+}
